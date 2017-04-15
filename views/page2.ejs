@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NodeJS Example</title>
+    <meta charset="utf-8">
+    <meta name="description"  content="This is the index">
+    <meta name="author"       content="Tundra Fizz">
+    <link rel="shortcut icon" href="/img/icon.jpg">
+    <link rel="stylesheet"    href="/css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <p>This is page two, click <a href="/">here</a> to go back to page one.</p>
+      <p>These variables were retrieved from the server.</p>
+    </div>
+
+    <div>
+      <p class="red">    <%= string %>                          </p>
+      <p class="green">  <%= array %>                           </p>
+      <pre class="blue"> <%= JSON.stringify(object, null, 4) %> </pre>
+    </div>
+  </body>
+</html>
